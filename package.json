@@ -1,0 +1,24 @@
+{
+  "name": "nameanalysis-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16",
+    "numerology": "file:../numerology"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.0",
+    "@babel/plugin-proposal-export-default-from": "^7.17.12",
+    "@babel/plugin-transform-modules-commonjs": "^7.18.0",
+    "@babel/preset-env": "^7.18.0"
+  }
+}
