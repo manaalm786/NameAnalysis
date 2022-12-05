@@ -1,6 +1,5 @@
 # Name Analysis API
 
-This is a name analysis API created for a Volley take-home project.
 
 ## Installation and Running the App
 
